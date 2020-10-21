@@ -2,7 +2,9 @@ import React from 'react';
 
 import MenuItemOptions from '../menu-item/menu-item.component';
 import uuid from 'react-uuid';
-import doctorImage from '../../assets/young-female-dr.jpg'
+import CustomButton from '../custom-button/custom-button.component';
+
+import doctorImage from '../../assets/young-female-dr.jpg';
 
 import './menu-principal-izquierdo.scss';
 
@@ -33,6 +35,7 @@ class MenuPrincipal extends React.Component {
                 <div className="logoContainer">
                     <img src={doctorImage} className="doctorImage" alt="Doctor"/>
                 </div>
+                <CustomButton>Agregar Paciente</CustomButton>
                 {
                     this.state.menuOptions.map(({titulo, id}) => (
                         <MenuItemOptions key={id} titulo={titulo}/>
