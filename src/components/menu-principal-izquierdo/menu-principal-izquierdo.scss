@@ -6,7 +6,7 @@
     width: 20%;
     height: auto;
 
-    & .titulo-barra-menu {
+    .titulo-barra-menu {
         color: #fff;
         text-align: center;
         margin-top: 0.3em;
@@ -14,18 +14,26 @@
         text-transform: uppercase;
     }
 
-    & .logoContainer {
+    .logoContainer {
        width: 100%;
        position: relative;
        display: flex;
        justify-content: center;
 
-       & .doctorImage {
+        .doctorImage {
            width: 45%;
            border-radius: 50%;
            margin-top: 0.4em;
            margin-bottom: 0.4em;
        }
+    }
+
+    .option {
+        margin-left: 4em;
+        margin-bottom: 1.5em;
+        color: #fff;
+        text-decoration: none;
+
     }
 
 }

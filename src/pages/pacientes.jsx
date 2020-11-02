@@ -1,10 +1,12 @@
-import React from 'react'
+import React  from 'react'
+import MenuPrincipal from '../components/menu-principal-izquierdo/menu-principal.component'
 
-export default function Pacientes(){
+export default function Pacientes() {
+
     return(
-        <div>
-            Lista de Pacientes
-            --Insertar codigo de vista--
-        </div>
+        <>
+            <MenuPrincipal />
+            <h1>Pacientes</h1>
+       </>
     )
 }

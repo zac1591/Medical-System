@@ -1,8 +1,6 @@
 import React from 'react'
 
 import MenuPrincipal from '../components/menu-principal-izquierdo/menu-principal.component'
-import Overview from './overview'
-import Pacientes from './pacientes'
 
 import './contenedor.principal.scss'
 import { Button } from "../components/forms/AuthForm";
